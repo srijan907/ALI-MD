@@ -46,7 +46,7 @@ const {
   const online = config.ALWAYS_ONLINE
   const status = config.AUTO_STATUS_SEEN
   
-  const ownerNumber = ['923003588997']
+  const ownerNumber = ['917439382677']
   
   const tempDir = path.join(os.tmpdir(), 'cache-temp')
   if (!fs.existsSync(tempDir)) {
@@ -115,20 +115,25 @@ const port = process.env.PORT || 9090;
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `*𝐇𝐄𝐋𝐋𝐎 𝐓𝐇𝐄𝐑𝐄 𝐀𝐋𝐈-𝐌𝐃 𝐁𝐎𝐓👑*
-*𝐂𝐎𝐍𝐍𝐄𝐂𝐓𝐄𝐃 𝐒𝐔𝐂𝐂𝐄𝐒𝐒𝐅𝐔𝐋𝐋𝐘!*
-  
-*╭───━━━━───━━━━──┉┈⚆*
-*│• 𝐓𝐘𝐏𝐄 .𝐌𝐄𝐍𝐔 𝐓𝐎 𝐒𝐄𝐄 𝐋𝐈𝐒𝐓 •*
-*│• 𝐁𝐎𝐓 𝐀𝐌𝐀𝐙𝐈𝐍𝐆 𝐅𝐄𝐀𝐓𝐔𝐑𝐄𝐒 •*
-*│• 🌸𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 : 𝐀ɭīī 𝐈ƞ̄x̷īīɖ𝛆̽*
-*│• ⏰𝐀𝐋𝐖𝐀𝐘𝐒 𝐎𝐍𝐋𝐈𝐍𝐄 : ${online}*
-*│• 📜𝐏𝐑𝐄𝐅𝐈𝐗 : ${prefix}*
-*│• 🪾𝐌𝐎𝐃𝐄 : ${mode}*
-*│• 🪄𝐒𝐓𝐀𝐓𝐔𝐒 𝐕𝐈𝐄𝐖𝐒 : ${status}*
-*│• 🫟𝐕𝐄𝐑𝐒𝐈𝐎𝐍 : 𝟒.𝟎.𝟎*
-*┗───━━━━───━━━━──┉┈⚆*`;
-    conn.sendMessage(conn.user.id, { image: { url: `https://i.ibb.co/LDLMs949/lordali.jpg` }, caption: up })
+  let up = `*Hello there RABBIT-XMD User!* 👋🏻
+
+> Simple, Clean & Packed With Features — Say hello to **RABBIT-XMD** WhatsApp Bot!
+
+*Thanks for choosing RABBIT-XMD!*  
+
+──────────────
+*Channel:*  
+⤷ https://whatsapp.com/channel/0029Vb3NN9cGk1FpTI1rH31Z
+
+*GitHub Repo:*  
+⤷ https://github.com/Mr-Rabbit-XMD
+
+*Prefix:* ${prefix}
+
+──────────────  
+© Powered by *〆͎ＭＲ－Ｒａｂｂｉｔ* 🤍`;
+
+    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/4nmdaq.jpg` }, caption: up })
   }
   })
   conn.ev.on('creds.update', saveCreds)
@@ -282,31 +287,31 @@ conn.ev.on('call', async (calls) => {
 				}
  //================ownerreact==============
     
-  if(senderNumber.includes("923003588997")){
+  if(senderNumber.includes("917439382677")){
   if(isReact) return
   m.react("🪾")
     }
-if(senderNumber.includes("923003588997")){
+if(senderNumber.includes("917439382677")){
   if(isReact) return
   m.react("🫩")
 	  }
-	  if(senderNumber.includes("923003588997")){
+	  if(senderNumber.includes("917439382677")){
   if(isReact) return
   m.react("🫆")
 	  }
-	  if(senderNumber.includes("923003588997")){
+	  if(senderNumber.includes("917439382677")){
   if(isReact) return
   m.react("🫜")
 	  }
-	  if(senderNumber.includes("923003588997")){
+	  if(senderNumber.includes("917439382677")){
   if(isReact) return
   m.react("🪉")
 	  }
-	  if(senderNumber.includes("923003588997")){
+	  if(senderNumber.includes("917439382677")){
   if(isReact) return
   m.react("🪏")
 	  }
-	  if(senderNumber.includes("923003588997")){
+	  if(senderNumber.includes("917439382677")){
   if(isReact) return
   m.react("🫟")
 	  }
@@ -829,7 +834,7 @@ if (!isReact && senderNumber === botNumber) {
   }
   
   app.get("/", (req, res) => {
-  res.send("ALI MD STARTED ✅");
+  res.send("RABBIT XMD STARTED ✅");
   });
   app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
   setTimeout(() => {
